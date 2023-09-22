@@ -1,0 +1,10 @@
+﻿Repère;Style;Contenu;Nb récepteurs;Consommation;JdB Amont;Alimentation;Désignation;Longueur;Longueur max;L. Chemint.;Mode de pose;dU maxi;Classe conso.;KSimult;K Température;K Proximité;K Complémentaire;K Symétrie fs;Neutre chargé;Circuit Verrouillé;Repère Câble;IB;Etat circuit;Repère aval;Jdb Aval;Ind. Révision;Désignation complément.;Texte1;Texte2;Texte3;Texte4;Texte5;Texte6;Texte7;Texte8;Affectation des phases forcé;Affectation des phases;Amont;Récepteur;Amont;Repère;Longueur;Désignation;Type de câble;Ame;Pôle;Mode de pose;Repère Câble;Nb câbles multi;Câble;Neutre;PE ou PEN;IB;IZ;L. Chemint.;Prix Liaison;Longueur max;Largeur;Hauteur;Poids Liaison
+TGBT1;Tableau;;1;;;Normal;None;;;0;;8;;1;1;;1;;Non;Non;TGBT1;;;;;A;;;;;;;;;;0;123;SOURCE;Tableau;SOURCE;TGBT1;;None;U1000R2V (90°C);Cu;;;TGBT1;;;;;;;0;0;;;;
+DIFF1;;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;;;;;;A;;;;;;;;;;0;;SOURCE;;SOURCE;DIFF1;;;U1000R2V (90°C);Cu;;;;;;;;;;0;0;;;;
+TD1;Tableau;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;TD1;;;;;A;;;;;;;;;;0;123;TGBT1;Tableau;TGBT1;TD1;;;U1000R2V (90°C);Cu;;;TD1;;;;;;;0;0;;;;
+IRVE1;Divers;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;IRVE1;40.05;;;;A;;;;;;;;;;0;;TD1;Divers;TD1;IRVE1;;;U1000R2V (90°C);Cu;Multi;;IRVE1;;;;;40.05;;0;0;;;;
+PROT1;;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;;;;;;A;;;;;;;;;;0;;TD1;;TD1;PROT1;;;U1000R2V (90°C);Cu;;;;;;;;;;0;0;;;;
+IRVE2;Divers;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;IRVE2;40.05;;;;A;;;;;;;;;;0;;TD1;Divers;TD1;IRVE2;;;U1000R2V (90°C);Cu;Multi;;IRVE2;;;;;40.05;;0;0;;;;
+TD2;Tableau;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;TD2;;;;;A;;;;;;;;;;0;123;TGBT1;Tableau;TGBT1;TD2;;;U1000R2V (90°C);Cu;;;TD2;;;;;;;0;0;;;;
+IRVE3;Divers;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;IRVE3;40.05;;;;A;;;;;;;;;;0;;TD2;Divers;TD2;IRVE3;;;U1000R2V (90°C);Cu;Multi;;IRVE3;;;;;40.05;;0;0;;;;
+IRVE4;Divers;;1;;;Normal;;;;0;;8;;1;1;;1;;Non;Non;IRVE4;40.05;;;;A;;;;;;;;;;0;;TD2;Divers;TD2;IRVE4;;;U1000R2V (90°C);Cu;Multi;;IRVE4;;;;;40.05;;0;0;;;;
